@@ -1,0 +1,15 @@
+[project]
+name = "emailssh"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "resend>=2.0",
+  "mss>=9.0",
+]
+
+[project.scripts]
+emailssh-agent = "emailssh.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

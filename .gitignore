@@ -1,0 +1,8 @@
+config.toml
+.seen_emails.json
+.env
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+*.egg-info/
