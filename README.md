@@ -1,8 +1,8 @@
-# EmailSSH
+# EmailSSH with RESEND
 
 Remote command execution over email. Send a command to a Resend inbound address from any mail client; the Windows agent polls Resend, runs the command via `cmd.exe`, and replies with the output.
 
-There is no HTTP server, webhook, tunnel, or IMAP — only the [Resend](https://resend.com) Python SDK for send and receive.
+There is no HTTP server, webhook, tunnel, or IMAP only the [Resend](https://resend.com) Python SDK for send and receive.
 
 ## Prerequisites
 
@@ -76,7 +76,3 @@ emailssh/
 ├── .seen_emails.json     # Auto-created processed-ID store
 └── emailssh/             # Python package
 ```
-
-## License
-
-See repository license file if present.
