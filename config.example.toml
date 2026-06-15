@@ -1,6 +1,6 @@
 [agent]
 id = "desktop-01"
-inbound_address = "desktop01@pixaibzi.resend.app"
+inbound_address = "desktop01@example.resend.app"
 poll_interval_seconds = 5
 command_timeout_seconds = 30
 
@@ -12,4 +12,4 @@ shared_secret = "replace-with-a-long-random-string"
 
 [resend]
 api_key = "re_xxxxxxxxxxxx"
-from_address = "desktop01@pixaibzi.resend.app"
+from_address = "desktop01@example.resend.app"
